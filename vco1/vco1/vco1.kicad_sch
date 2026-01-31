@@ -1306,157 +1306,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3671,7 +3520,7 @@
 	)
 	(text "mod depth"
 		(exclude_from_sim no)
-		(at 64.77 60.96 0)
+		(at 64.516 53.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3803,7 +3652,7 @@
 		)
 		(uuid "c1a32443-e5ba-4a98-9229-250f193e95be")
 	)
-	(text "TI TL43BLI has 0.5% tolerance at 25°C, not really good enough.\nLM4040C-2.5 suggested in datasheet."
+	(text "TI TL431Bx has 0.5% tolerance at 25°C, not really good enough.\nLM4040C-2.5 suggested in datasheet."
 		(exclude_from_sim no)
 		(at 109.728 192.024 0)
 		(effects
@@ -5319,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 172.72) (xy 53.34 172.72)
+			(xy 43.18 172.72) (xy 46.99 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5406,16 +5255,6 @@
 			(type default)
 		)
 		(uuid "a261ef71-d8d5-4e21-b909-dc641fa85d8a")
-	)
-	(wire
-		(pts
-			(xy 54.61 170.18) (xy 58.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a451228d-14e5-49b7-8333-ed4c3f972b64")
 	)
 	(wire
 		(pts
@@ -5859,16 +5698,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 160.02) (xy 53.34 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e490d5e7-628b-4e73-bb95-f62616882c65")
-	)
-	(wire
-		(pts
 			(xy 237.49 48.26) (xy 240.03 48.26)
 		)
 		(stroke
@@ -5929,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 160.02) (xy 43.18 160.02)
+			(xy 43.18 160.02) (xy 49.53 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6089,7 +5918,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 170.18) (xy 43.18 170.18)
+			(xy 43.18 170.18) (xy 49.53 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6431,7 +6260,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL072HxD"
 			(at 227.33 63.5 0)
 			(effects
 				(font
@@ -6518,7 +6347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u or more"
+		(property "Value" "10u"
 			(at 77.47 179.4509 0)
 			(effects
 				(font
@@ -7035,73 +6864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 55.88 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1024d6f9-3d19-4a8b-af65-9e53ad87c447")
-		(property "Reference" "FB3"
-			(at 55.8419 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 55.8419 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
-			(at 55.88 174.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 55.88 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e55b890-9092-47fe-9c70-bb0725cea9b5")
-		)
-		(pin "1"
-			(uuid "a5c6b46e-a756-4433-ba85-dbe96089af5d")
-		)
-		(instances
-			(project "vco1"
-				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 16.51 180)
 		(unit 1)
@@ -7325,7 +7087,7 @@
 				)
 			)
 		)
-		(property "Value" "1010 turn"
+		(property "Value" "10k 3266Y-103"
 			(at 175.26 102.87 90)
 			(effects
 				(font
@@ -7396,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL072HxD"
 			(at 227.33 40.64 0)
 			(effects
 				(font
@@ -7552,7 +7314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL072HxD"
 			(at 246.38 142.2399 0)
 			(effects
 				(font
@@ -7623,7 +7385,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 58.42 172.72 270)
+		(at 46.99 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7631,7 +7393,7 @@
 		(dnp no)
 		(uuid "1bdc0cc0-ff8d-45c2-a83b-f700cdf92eea")
 		(property "Reference" "#PWR012"
-			(at 54.61 172.72 0)
+			(at 43.18 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7402,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 62.23 172.7199 90)
+			(at 50.8 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 172.72 0)
+			(at 46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 172.72 0)
+			(at 46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 172.72 0)
+			(at 46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +8357,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 53.34 160.02 270)
+		(at 49.53 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8603,7 +8365,7 @@
 		(dnp no)
 		(uuid "36ff8a38-12c2-483b-aabd-d0bdc054868c")
 		(property "Reference" "#PWR02"
-			(at 49.53 160.02 0)
+			(at 45.72 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8374,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 57.15 160.0199 90)
+			(at 53.34 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 160.02 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 160.02 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 53.34 160.02 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +8507,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL43BLI"
+		(property "Value" "TL431BCDBZR"
 			(at 115.57 179.0699 90)
 			(effects
 				(font
@@ -9417,7 +9179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "2.2u"
 			(at 133.3499 30.48 0)
 			(effects
 				(font
@@ -9426,7 +9188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 135.89 33.3248 0)
 			(effects
 				(font
@@ -9628,7 +9390,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL072HxD"
 			(at 227.33 16.51 0)
 			(effects
 				(font
@@ -9990,7 +9752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+		(property "Footprint" "Pot:RV9012NO"
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -10326,7 +10088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u or so"
+		(property "Value" "2.2u"
 			(at 143.51 142.2399 0)
 			(effects
 				(font
@@ -10999,74 +10761,6 @@
 			(project "vco1"
 				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 49.53 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6af27ed1-c90c-4691-a0be-5dcdc10e5245")
-		(property "Reference" "FB1"
-			(at 49.4919 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 49.4919 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
-			(at 49.53 161.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 49.53 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e22015a-3485-450d-9ea8-18954ff31f63")
-		)
-		(pin "1"
-			(uuid "26859710-73ad-4a35-b3a5-587803f1d8e9")
-		)
-		(instances
-			(project ""
-				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -11829,7 +11523,7 @@
 				)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL072HxD"
 			(at 227.33 83.82 0)
 			(effects
 				(font
@@ -12201,7 +11895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
+		(property "Value" "TL072HxD"
 			(at 266.7 142.2399 0)
 			(effects
 				(font
@@ -12619,7 +12313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u or more"
+		(property "Value" "10u"
 			(at 77.47 168.0209 0)
 			(effects
 				(font
@@ -13577,7 +13271,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k?"
+		(property "Value" "100k"
 			(at 66.0399 62.23 0)
 			(effects
 				(font
@@ -13586,7 +13280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+		(property "Footprint" "Pot:RV9012NO"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -14745,7 +14439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+		(property "Footprint" "Pot:RV9012NO"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -14818,7 +14512,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles"
+		(property "Footprint" "Pot:RV9012NO"
 			(at 60.96 24.13 0)
 			(effects
 				(font
@@ -15003,7 +14697,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 58.42 170.18 270)
+		(at 49.53 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15011,7 +14705,7 @@
 		(dnp no)
 		(uuid "dfd29515-d7ad-49b4-91e2-3f4c63ceec5d")
 		(property "Reference" "#PWR09"
-			(at 54.61 170.18 0)
+			(at 45.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15020,7 +14714,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 62.23 170.1799 90)
+			(at 53.34 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +14723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 170.18 0)
+			(at 49.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +14732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 170.18 0)
+			(at 49.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +14741,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 170.18 0)
+			(at 49.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15401,74 +15095,6 @@
 			(project "vco1"
 				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 52.07 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f20ef06f-0d1c-4069-bac8-b74f08c78420")
-		(property "Reference" "FB2"
-			(at 52.0319 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 52.0319 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
-			(at 52.07 171.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 52.07 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1d5ae44-dc6e-4b78-944d-a2186ded455a")
-		)
-		(pin "1"
-			(uuid "46a78f70-585e-415f-b604-3ddd7b5cdc08")
-		)
-		(instances
-			(project "vco1"
-				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
-					(reference "FB2")
 					(unit 1)
 				)
 			)

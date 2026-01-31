@@ -1,0 +1,212 @@
+(footprint "RV9012NO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
+	(tags "potentiometer vertical 9mm single")
+	(property "Reference" "RV_PWM1"
+		(at -1.05 -7.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "00c75817-deb8-459c-9615-c12451423898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100k"
+		(at 0 -0.5 180)
+		(layer "F.Fab")
+		(uuid "38ddcd12-4f8a-4d79-899c-86b441bdec29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at -7.5 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12992d2f-741b-4131-880a-5d402666eb22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at -7.5 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0d2da87-67c0-4238-9f38-8bc9001f82b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8 -6.5)
+		(end -8 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d29c3817-8ff6-4a00-ba66-c12f0f1d0938")
+	)
+	(fp_line
+		(start -8 6.5)
+		(end 5.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b94530c-8363-4cd0-9154-b238326c7763")
+	)
+	(fp_line
+		(start 5.5 -6.5)
+		(end -8 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0617947-be14-472c-83b7-bdcf02db25c4")
+	)
+	(fp_line
+		(start 5.5 6.5)
+		(end 5.5 -6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8707dcf-e4c7-49cc-af12-1c2a4e6f6d3e")
+	)
+	(fp_line
+		(start -6.5 -4.9)
+		(end 5.5 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51c7070b-eced-4d26-b743-d45cab2cbc51")
+	)
+	(fp_line
+		(start -6.5 4.9)
+		(end -6.5 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "118d3a6a-1599-4aee-980e-cccb4e6cddcd")
+	)
+	(fp_line
+		(start -6.5 4.9)
+		(end 5.5 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf186ec5-0c10-4f42-9a8e-5b420575940d")
+	)
+	(fp_line
+		(start 5.5 4.9)
+		(end 5.5 -4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33297d55-7635-4331-afa8-f649fe85a97e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "da3d0832-9c10-4cc9-9e00-9ff62e558818")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 1 0)
+		(layer "F.Fab")
+		(uuid "71e01933-4b63-4510-97f1-138d3f555030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at 0 -4.8 90)
+		(size 2.7 3)
+		(drill oval 1.8 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61768dc2-1fdf-4fe3-b143-47677455f9cb")
+	)
+	(pad "" thru_hole oval
+		(at 0 4.8 90)
+		(size 2.7 3)
+		(drill oval 1.8 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88294598-0738-4547-88ce-b49e67954925")
+	)
+	(pad "1" thru_hole circle
+		(at -7 -2.5 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c345a616-7a0a-49f3-958c-52f5e1a1e58f")
+	)
+	(pad "2" thru_hole circle
+		(at -7 0 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eeb59976-8690-4cea-a2a0-11ca83149a24")
+	)
+	(pad "3" thru_hole circle
+		(at -7 2.5 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d3a154e-b80b-40e0-8544-8fd2bbd80941")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alpha_RD901F-40-00D_Single_Vertical.step"
+		(offset
+			(xyz -7.5 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
