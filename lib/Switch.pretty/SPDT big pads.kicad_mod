@@ -1,0 +1,244 @@
+(footprint "SPDT big pads"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf")
+	(tags "switch SPDT")
+	(property "Reference" "SW1"
+		(at -2.5 0 90)
+		(layer "F.SilkS")
+		(uuid "efc7be21-f047-412e-a8d6-e9d4a6070dbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "5a531c98-70eb-4455-b0d8-c57ca3abe77a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at -2 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc7ede8b-1e45-4ecf-9110-ee8bbccadf46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at -2 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05277536-ef64-444f-95b6-43afcf46ec52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -3)
+		(end 6 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc24bcc5-16b3-458e-ba36-e39454c2d3b6")
+	)
+	(fp_line
+		(start -6 -2.5)
+		(end -6 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6760b86-4d76-489e-83da-b508b99ee618")
+	)
+	(fp_line
+		(start -6 3)
+		(end -6 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b6ac138-72dc-41c5-9d79-2bceee29818c")
+	)
+	(fp_line
+		(start 6 -3)
+		(end 6 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3471100c-d8bb-4758-8177-a2441a582b33")
+	)
+	(fp_line
+		(start 6 3)
+		(end -6 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "113461b0-c9f7-404b-8dbd-2958037cf93b")
+	)
+	(fp_line
+		(start 6 3)
+		(end 6 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1ece697-2390-489e-bc76-7e8d98ec8ee8")
+	)
+	(fp_line
+		(start -6.6 -3.6)
+		(end 6.6 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "f117bd0f-dee9-43bf-bacc-d987850335ff")
+	)
+	(fp_line
+		(start -6.6 3.6)
+		(end -6.6 -3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "9818073e-0913-431f-bfcc-1bf98360b03a")
+	)
+	(fp_line
+		(start 6.6 -3.6)
+		(end 6.6 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "d20e6ba1-c789-4ff3-b851-731e8ed8f7fb")
+	)
+	(fp_line
+		(start 6.6 3.6)
+		(end -6.6 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "4adb9bab-bdb1-4fd5-bf6e-af7236dfb7e5")
+	)
+	(fp_line
+		(start -6.5 -3.5)
+		(end 6.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76232b57-15d9-4e52-9935-7e6cae0dd8e8")
+	)
+	(fp_line
+		(start -6.5 3.5)
+		(end -6.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bb421a5-7615-4c5d-a52e-cc08b90e7331")
+	)
+	(fp_line
+		(start 6.5 -3.5)
+		(end 6.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76135e97-d905-49ea-8f02-46f1da3d53a4")
+	)
+	(fp_line
+		(start 6.5 3.5)
+		(end -6.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d89bc35-da1a-4fbd-82eb-947dedbdd735")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(layer "F.Fab")
+		(uuid "9ddf1971-5e29-4892-867d-d123a7dd8ba8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.7 0)
+		(size 2 4)
+		(drill oval 0.9 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c201a7a-566e-4080-88b8-54c550d61434")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 2 4)
+		(drill oval 0.9 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "257b52f9-4ec8-4eeb-b76d-4c2b264715db")
+	)
+	(pad "3" thru_hole oval
+		(at 4.7 0)
+		(size 2 4)
+		(drill oval 0.9 3.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15de8503-c28f-4f56-aa18-b1e50be4ad66")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide_SPDT_Straight_CK_OS102011MS2Q.step"
+		(offset
+			(xyz -2 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

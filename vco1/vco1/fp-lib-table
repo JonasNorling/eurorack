@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "elemental")(type "KiCad")(uri "/home/jonasn/src/eurorack/lib/elemental.pretty")(options "")(descr ""))
   (lib (name "Pot")(type "KiCad")(uri "/home/jonasn/src/eurorack/lib/Pot.pretty")(options "")(descr ""))
+  (lib (name "Switch")(type "KiCad")(uri "/home/jonasn/src/eurorack/lib/Switch.pretty")(options "")(descr ""))
+  (lib (name "Holes")(type "KiCad")(uri "/home/jonasn/src/eurorack/lib/Holes.pretty")(options "")(descr ""))
 )
