@@ -16131,7 +16131,7 @@
 				)
 			)
 		)
-		(property "Value" "1M maybe?"
+		(property "Value" "1M"
 			(at 78.74 38.1 90)
 			(effects
 				(font
