@@ -699,6 +699,10 @@
     [
       "640a8493-2627-4049-b844-ed2c683298ef",
       "Supply"
+    ],
+    [
+      "ff928554-de32-4404-9541-1e0e85af3e58",
+      "Oscillator 2"
     ]
   ],
   "text_variables": {}
