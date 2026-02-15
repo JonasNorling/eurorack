@@ -1,4 +1,4 @@
-27249964691512158
+27239346914677708
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63489,13 +63489,6 @@ heatsink
 0
 0
 0
-Holes
-TP_0.9mm
-THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
-test point THT pad
-0
-1
-1
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -94079,13 +94072,6 @@ mousebite stamp slot break tab 2mm edge on-edge
 0
 0
 0
-Pot
-RV9012NO
-Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113
-potentiometer vertical 9mm single
-0
-5
-3
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -99329,13 +99315,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Switch
-SPDT big pads
-CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
-switch SPDT
-0
-3
-3
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -107925,24 +107904,3 @@ Varistor VF
 0
 2
 2
-elemental
-elemental-4mm
-
-
-0
-0
-0
-elemental
-elemental-4mm-mask
-
-
-0
-0
-0
-elemental
-elemental-25.4mm
-
-
-0
-0
-0
