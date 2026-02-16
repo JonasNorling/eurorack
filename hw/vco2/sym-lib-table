@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "ssi")(type "KiCad")(uri "/home/jonasn/src/eurorack/lib/ssi.kicad_sym")(options "")(descr ""))
+  (lib (name "ssi")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/ssi.kicad_sym")(options "")(descr ""))
 )
