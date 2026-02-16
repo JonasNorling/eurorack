@@ -55,6 +55,39 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -6 -4.5)
+		(end 5 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d130c771-7d53-4c76-92fb-d57847f080f5")
+	)
+	(fp_rect
+		(start -6 -4.5)
+		(end 5 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a35331d2-a934-4d8c-960a-bb8f2abb64b9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bec2619b-f005-4ad5-93bd-06fba1f76815")
+	)
 	(fp_line
 		(start -8 -6.5)
 		(end -8 6.5)
@@ -147,7 +180,7 @@
 		(uuid "da3d0832-9c10-4cc9-9e00-9ff62e558818")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.5 1 0)
+		(at 0 1 180)
 		(layer "F.Fab")
 		(uuid "71e01933-4b63-4510-97f1-138d3f555030")
 		(effects
