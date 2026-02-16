@@ -4,4 +4,5 @@
   (lib (name "Pot")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/Pot.pretty")(options "")(descr ""))
   (lib (name "Switch")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/Switch.pretty")(options "")(descr ""))
   (lib (name "Holes")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/Holes.pretty")(options "")(descr ""))
+  (lib (name "Eurorack")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/Eurorack.pretty")(options "")(descr ""))
 )
