@@ -1,0 +1,108 @@
+(footprint "Multicomp Banana jack"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.5 -0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "59e4579d-ff32-4825-b7e8-1f19981fb0e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Multicomp Banana jack"
+		(at 7.5 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6289df1a-4df7-49c8-ba47-4130568092fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3644c2d-1d2c-4b96-a0ab-6ff02a6d6152")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba21bbfa-cac2-439e-9f7a-3bfa9d30aa8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.5 -5)
+		(end 18 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29a10b9b-118b-4a64-903a-b84cea9f2ee3")
+	)
+	(fp_rect
+		(start 18 -4)
+		(end 20.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8b5d6027-e8e6-4691-96a0-04718fe3328b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1ba38edb-5718-4043-8454-944994d6e669")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83ff1ce8-a91a-4102-8d03-61a661869384")
+	)
+	(pad "1" thru_hole circle
+		(at 15.5 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87301862-a6b1-415b-850a-94ce9918baab")
+	)
+	(embedded_fonts no)
+)
