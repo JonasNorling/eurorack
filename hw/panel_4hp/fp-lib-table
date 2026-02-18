@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Eurorack")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/Eurorack.pretty")(options "")(descr ""))
+  (lib (name "elemental")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/elemental.pretty")(options "")(descr ""))
+)

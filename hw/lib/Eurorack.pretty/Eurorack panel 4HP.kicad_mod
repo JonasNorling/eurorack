@@ -1,0 +1,97 @@
+(footprint "Eurorack panel 4HP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd9aeed1-919f-47b7-bb06-4e6608a4a9c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Eurorack panel 4HP"
+		(at 3 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f24f3e2-275e-4e46-986c-f4868b8647e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e047687-3ef1-4f9f-b0b9-913d5f2d1018")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf44510-52c8-4c62-9f37-a394a8657e15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 20 128.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "58ecfa8c-018e-4c6c-a2b8-94bfff11e38d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "510de256-44a9-4e22-bfcd-97fdc74fc016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at 7.5 3)
+		(size 8 4.8)
+		(drill oval 6.4 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c0b7a12-d084-48ae-bb91-841b70b1a210")
+	)
+	(pad "" thru_hole oval
+		(at 7.5 125.5)
+		(size 8 4.8)
+		(drill oval 6.4 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5926cd86-a3e7-4915-9aee-ed950ebb7faf")
+	)
+	(embedded_fonts no)
+)
