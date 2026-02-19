@@ -78,10 +78,1033 @@
 		)
 	)
 	(net 0 "")
+	(footprint "Eurorack:Pot hole M7 shaft"
+		(layer "F.Cu")
+		(uuid "1417e30e-0e42-41b9-948c-e148ead72d75")
+		(at 87 46)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf6ebf34-fe71-4dbe-9796-ed9db70a0d8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole M7 shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "44655631-2fc0-4daf-bb6a-f386577b9c57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a37fbc8-8762-43a3-8d75-2f226f3ee4b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4c05e0b-4ec8-43ca-8131-8a9cb4009248")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bab23b63-0446-431e-9ace-acceb65a4db2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "33004fbd-9164-4333-bb14-bc19120a47ee")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Led 3mm hole"
+		(layer "F.Cu")
+		(uuid "19615234-1198-4a0e-bbc5-8018793af2b7")
+		(at 136 115 90)
+		(property "Reference" "REF**"
+			(at 1.5 -2.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a344a21-ddd1-435c-9e89-c7772b404105")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Led 3mm hole"
+			(at 1.5 -1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1f57fcd3-396f-4534-bb04-03bfe916fa1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2557860c-ed48-44a0-9d58-38fd34af07a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2a80574-8344-419b-aa61-48095b1dea36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "ed0286e9-30fd-4950-9aa8-3952bfb53245")
+		)
+		(fp_circle
+			(center 2.54 0)
+			(end 3.04 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "84dca021-dc73-446a-86a6-0e5102a3963b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.5 0.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5c4083e5-77d5-4e37-8954-15a0294893c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 1.27 0 90)
+			(size 1.905 1.905)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3418d3d0-994f-4f56-8478-833865239f6e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "246d2e9e-24da-4809-9619-d3d87e5c70b0")
+		(at 126 63)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d99222b-c0d0-41b9-beb7-9baba945a230")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "12d262c5-9dfe-4a12-8cff-e90119bc4839")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cca7e608-05be-4bc5-890f-a1684110150f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad55d196-0df8-4fe7-84a9-e0b9e959f649")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e762d43c-77b9-43f3-ab70-080cc46d699a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bb191371-dc92-4400-8e38-96fb3cfd0136")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "407d6f3a-375d-4ab2-9eb4-3d1a99b4a40a")
+		(at 100 132)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7d98c6b9-cca9-40dc-b35e-41f520c26ec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7de69968-e542-4857-a9ce-9cc86b69a03c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f904458-e7ae-4318-814b-73f881fdc532")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9ea4a96-aa95-4e1f-bfd3-a285e6573ec5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ff45a5d3-324a-4ec4-b6a5-436105bc9f7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e48542d0-67ae-473e-8c68-8b3e1805587e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "40f9cf6c-c8b1-48be-bff0-9da2820eed01")
+		(at 115 148)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05c447e8-0fa1-4226-aba8-3e29a2150b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8f73924d-b684-4126-81a7-d17e923f87ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7e62745-6da6-4e47-860e-eef48f8b6f4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "732d85df-1d1e-4f4f-9fc1-fabccbbf7925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0978202b-2100-4915-af75-fe835227443e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "18aa68b2-1e30-4221-8558-ee5ba380ebd7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "56445f4b-ddd1-4bc5-a0ed-52bbd1c23d2f")
+		(at 120 132)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ddc073b-8e89-494a-875a-048cd0af7d93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b4364d51-7634-4406-889b-98340ca92e87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48e68131-8d42-492b-8303-badd50d7951f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7b541fa-0d02-4a2f-81cd-f5d5acc4fa35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3ade9441-03f2-49d7-8fe2-31270fa98c6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ac1a287e-09d1-4b9a-9e62-71601fb271e3")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "5ca32827-d95a-4e5f-9bce-5bad7d4f14f8")
+		(at 130 132)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "23f5805a-24ae-4c86-aa55-5a19e635ab00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fc116258-894b-4fc9-8ea0-5f4fbb1002ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28281700-6ecd-4578-b4b5-51c0a593c6c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "787271e7-4e1f-4518-bfd6-67daa3eead24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0bc76bfe-237c-4620-8862-32c005a9b4a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "70ad7a00-005e-4fe3-af76-5dc3458795f2")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "667194b1-5332-4e72-82c9-71afccbeb82e")
+		(at 135 148)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f174fef-bf70-4c26-8bd2-b58391672161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "db782744-bb86-4110-a9ff-426821788277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a9fbb07-f847-44f4-9d89-e4cb86044676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0057ac5-a823-4623-95c4-9e1568da2f5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "323e8f0c-a72a-4167-bc45-2ef936ad7961")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5c830037-4d88-457d-837b-31d3085b6f12")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "68a5c668-bf7b-4177-b598-b83647e70173")
+		(at 125 148)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "17d0e6c4-4612-4bb6-8355-230dd709ee3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "eeac9e73-2591-4655-b6c8-893a7faf0a1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5d7727d-bd9b-4b61-a8cf-0200ff120449")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eafa3446-0118-4354-9c56-a5f4b749a58b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "95d809dc-f060-4bfe-9fba-2b65337ccf7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5010496d-77ff-4ef7-8dba-fc38aeb5977c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "71fad0a5-ab21-4959-9ade-e94ed8126451")
+		(at 85 148)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8ca9d6e7-6b9c-4f6a-9009-7c3bf32772cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8427a8cd-a6d5-49bc-837f-1aa8b9549816")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49d18ec9-d07c-4b5e-b844-31d4848dab54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acc87d52-1b9e-4436-a6a8-461873da6514")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cc05a55f-944d-459f-8190-c31bd136c8b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cb54991e-9140-44a6-bc43-8b9d2572f721")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole M7 shaft"
+		(layer "F.Cu")
+		(uuid "73eba6f2-fdfd-4360-bf6e-05e2fedebbf9")
+		(at 101 46)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e413a6d-c179-4163-8ae3-f3d99f47c2e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole M7 shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7da10f66-6040-44a5-b36d-0ecf130459b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8321443a-9576-4dbf-9a90-20562bc62ee5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0933a708-04fd-4fb4-bd92-738d128788b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cd8a2a62-7242-45ba-9790-c2d05eef08ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cdff117a-c299-43b8-9f90-dd6c7da6888c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole M7 shaft"
+		(layer "F.Cu")
+		(uuid "7400d79d-95e0-4eaf-8ebb-c73e5afa9e0e")
+		(at 117 46)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8bc5ce8-6ad8-44cd-86c1-a113c384208a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole M7 shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1d9e6287-7d1d-4077-b1f6-290903698034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02fdd78e-e4de-49f0-99e1-20884885d734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0913f56f-ce8f-48aa-b761-5cc1718de334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 2 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b037fa64-15d1-41ab-8797-ac964574d943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f54274e8-fb9b-4fef-88c0-66c4aaa7cd0c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "8caa4702-75e5-486b-bee1-acd2ec08dbe3")
+		(at 105 148)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5fd25d36-f4cc-444c-9ff1-ed81345b4888")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "37625c4b-6a78-48fe-b335-1e8ce3bf61cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16f67308-e63b-46ef-8bb8-ef4f7d276f92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "024ad0fd-f4d3-4342-9bf1-4cd8d7b5281f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "52cdd02f-c7fd-4297-8414-8c0e56970f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "20b94aef-bb00-486d-bec3-58aaedba15de")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Eurorack:Eurorack panel 12HP"
 		(layer "F.Cu")
 		(uuid "8e7326b9-7330-492b-849d-487684e80008")
-		(at 102.75 27.25)
+		(at 79.7 31)
 		(property "Reference" "REF**"
 			(at 2 -0.5 0)
 			(unlocked yes)
@@ -142,7 +1165,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "23ef0aa6-294b-4ba3-a354-12487e7c402f")
+			(uuid "5e91ca40-68a0-43c1-8de0-fea59b38ef1a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 5.5 -3.5 0)
@@ -162,7 +1185,7 @@
 			(drill oval 6.4 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "ab05508a-a1d6-4796-aa67-3cb63ae14a81")
+			(uuid "7d279a93-5cf1-44d1-97f2-53f1a148bd75")
 		)
 		(pad "" thru_hole oval
 			(at 7.5 125.5)
@@ -170,7 +1193,7 @@
 			(drill oval 6.4 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "3552a4a0-ea7a-4065-bf42-7a42d68fb980")
+			(uuid "f2a2a72e-469a-460f-90fb-9c90c46d21c4")
 		)
 		(pad "" thru_hole oval
 			(at 53.1 3)
@@ -178,7 +1201,7 @@
 			(drill oval 6.4 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "8080c682-f640-4114-bdab-cda019dbb6ff")
+			(uuid "2390987f-9e7b-4f02-a391-ba8df469bb97")
 		)
 		(pad "" thru_hole oval
 			(at 53.1 125.5)
@@ -186,7 +1209,1174 @@
 			(drill oval 6.4 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "206c7f0e-27a0-42da-bb29-1e8ade036f56")
+			(uuid "21b652ac-442a-4068-a006-5841e24916b4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole M7 shaft"
+		(layer "F.Cu")
+		(uuid "95348542-eaba-47cb-92bf-10726ebe1ef3")
+		(at 133 46)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20619ec8-870d-4b41-b947-a8afa888b4e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole M7 shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "913a64f7-6c2a-4f95-9911-24bb9d8af98e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f39fcb3-29d0-447b-ac5d-65dae0377da4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66bf55cd-07b8-42d3-bf09-ed3f8261924d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f08f4c92-743d-4721-ac0b-341f9f06f1ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 8)
+			(layers "*.Cu" "*.Mask")
+			(uuid "27575f22-34e5-4bd5-963a-a0596bddf537")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "98f9dc4e-61c8-4d25-84ef-fa18605f76ef")
+		(at 87 102)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6fb52853-87ed-46a2-bf08-c5ee8f341ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c785038b-8638-4f58-9a9c-cfbdf026d262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3ae3a0e-66e4-47e0-98cd-34fe3ae6542e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3b1aa9-e7cd-4d18-a289-e6dbad24efe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 1 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ae5affe7-73c9-40ef-a82b-1df10b04a712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5f1213a6-1624-4df3-8eed-3eac1c91c69c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "a59bc089-947b-448d-9b7a-bf8066e9f16c")
+		(at 90 132)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f33f330-5bd0-4722-89a4-aedff806c8cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "483789dc-910b-49b8-bce4-4f188907d9eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26ef5a2e-a900-4146-beb5-d66d9ee5d201")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb68a03-c852-45d1-b534-97b102fbfd8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1cc37fab-c1f7-434c-9341-4b0f88a45bf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5c4bb7f9-dfe3-457f-80ef-7adaecaf225d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Led 3mm hole"
+		(layer "F.Cu")
+		(uuid "a90c8247-9d56-4ce7-a6d0-82e1ebac0970")
+		(at 84 115 90)
+		(property "Reference" "REF**"
+			(at 1.5 -2.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "04641ce5-e01c-4816-95ff-e74791179fa0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Led 3mm hole"
+			(at 1.5 -1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8cdc06df-249a-4a33-b618-1c126ab89684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5619833-68c8-4f41-8383-20d8cb6d456c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b35d26d-588a-459b-92d1-15ec52bcd8cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "1dbd8870-ae76-45de-b6dd-e83dcf9ddffe")
+		)
+		(fp_circle
+			(center 2.54 0)
+			(end 3.04 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "571b3a6b-72d6-4141-9387-595792d1181f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.5 0.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4607e7f5-f282-4758-9da1-91ee76a13569")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 1.27 0 90)
+			(size 1.905 1.905)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "75aec8be-1d7b-4153-af73-ca45c522a877")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "b88c9c3a-7dd0-4e05-854f-7d778a57647d")
+		(at 94 63)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "468d5e48-13c4-4fe1-beb8-74ff1ea73527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "73e6ece2-bbd9-4b56-9ea4-3fe30cf592e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d748d5b6-3416-4e3d-8f21-6fea146a999c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d26edbf-b1a0-4ae9-8b6b-521154d9a8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 1 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6487545a-1456-4b40-a727-dbec830464f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "27c4bb2c-6292-4358-a38f-f82fa3187e48")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "c651c417-3cbf-4bee-a57d-631f8e8ca419")
+		(at 95 148)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87c8a40b-69fc-4390-804c-46ee8965df56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "452847a5-773c-4437-886a-da80094cc8f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0840349-f24d-4645-a4ba-771b0060ce8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd661239-f2b5-4d01-a3e1-dac6eac2cd13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "14430136-4724-4c73-aca2-83f173fb70d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8bae92fd-2f1b-462a-b6c8-bdb618f7bfde")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Pot hole 6mm shaft"
+		(layer "F.Cu")
+		(uuid "cd67f3f2-7828-4d66-90f7-02afcf3c45b7")
+		(at 87 87)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df333710-b239-47af-9bce-45e080b15ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Pot hole 6mm shaft"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "642f8985-17d9-4fc5-9dba-fb6dd956864e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5567eac-b2d0-4709-b9fa-c5dc24917c62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80b89176-8318-4362-a81f-c259d0e0962f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 1 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "32c3b9b4-e9b7-4f98-983e-794cb631b08f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.905 1.905)
+			(drill 6.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "077fb416-3ff9-4bf9-98b4-deb71a5336bb")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Eurorack:Led 3mm hole"
+		(layer "F.Cu")
+		(uuid "f1deea76-bfe2-4285-8e81-30caf4e36839")
+		(at 110 104 90)
+		(property "Reference" "REF**"
+			(at 1.5 -2.5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8e188125-4231-4a2b-b364-2f3cff37019e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Led 3mm hole"
+			(at 1.5 -1 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0cb1ed62-e4c4-45b2-a5cc-70c6885435f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e5024db-f746-4a7d-9123-c997dff7f71e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e67e7245-7ad2-4051-ad4b-c80cad0ccd46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_rect
+			(start -0.5 -0.5)
+			(end 0.5 0.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "46cc29a7-eb74-4968-9e55-12b2effa4a55")
+		)
+		(fp_circle
+			(center 2.54 0)
+			(end 3.04 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "0026ed21-6b32-47c3-b0b0-864e15dbfb22")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.5 0.5 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f4c137ad-f807-45ae-90f9-38ea9e3ac70d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 1.27 0 90)
+			(size 1.905 1.905)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4daafa37-14d4-4754-bf34-64c4a6f24808")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "elemental:elemental-25.4mm"
+		(layer "B.Cu")
+		(uuid "dcad326c-ff80-4136-a0e1-60c7bf97d686")
+		(at 111 37 180)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d3c927d7-4aa0-42e3-bc3f-7dd6eb76c9fe")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c2d7044f-257d-413e-9596-32c822f24119")
+			(effects
+				(font
+					(size 1.524 1.524)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "368643b8-4969-445c-a8ac-27a78d9698fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6d5eba3-74c3-411e-b1f0-d4b47113e7c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole)
+		(fp_poly
+			(pts
+				(xy -4.84505 -1.935537) (xy -4.6863 -1.9431) (xy -4.672916 -3.6322) (xy -5.0038 -3.6322) (xy -5.0038 -1.927975)
+				(xy -4.84505 -1.935537)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "89609c2d-70dc-41bc-a86e-9d2d07823f8b")
+		)
+		(fp_poly
+			(pts
+				(xy -4.84505 -1.198937) (xy -4.6863 -1.2065) (xy -4.67879 -1.37795) (xy -4.671279 -1.5494) (xy -5.0038 -1.5494)
+				(xy -5.0038 -1.191375) (xy -4.84505 -1.198937)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "3c30ae64-dec3-4484-8e82-7d8632afe321")
+		)
+		(fp_poly
+			(pts
+				(xy 11.3665 -0.3429) (xy 12.08405 -0.349645) (xy 12.8016 -0.356391) (xy 12.8016 -0.8128) (xy 10.8712 -0.8128)
+				(xy 10.8712 2.4384) (xy 11.353366 2.4384) (xy 11.3665 -0.3429)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "a08488c4-9d11-4bba-84fe-057adb52dfdb")
+		)
+		(fp_poly
+			(pts
+				(xy 7.7978 1.9812) (xy 6.858 1.9812) (xy 6.858 -0.8128) (xy 6.35 -0.8128) (xy 6.35 1.9812) (xy 5.4356 1.9812)
+				(xy 5.4356 2.4384) (xy 7.7978 2.4384) (xy 7.7978 1.9812)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "0b856dae-827b-40e7-8a64-dae73be57a7d")
+		)
+		(fp_poly
+			(pts
+				(xy -8.382 -0.3556) (xy -6.932223 -0.3556) (xy -6.939562 -0.57785) (xy -6.9469 -0.8001) (xy -7.91845 -0.806751)
+				(xy -8.89 -0.813403) (xy -8.89 2.4384) (xy -8.382 2.4384) (xy -8.382 -0.3556)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "2da68eb3-114d-447f-82f7-332c486cb072")
+		)
+		(fp_poly
+			(pts
+				(xy 1.8542 1.9812) (xy 0.3302 1.9812) (xy 0.3302 1.1176) (xy 1.524 1.1176) (xy 1.524 0.6604) (xy 0.3302 0.6604)
+				(xy 0.3302 -0.3556) (xy 1.906977 -0.3556) (xy 1.899638 -0.57785) (xy 1.8923 -0.8001) (xy 0.85725 -0.806734)
+				(xy -0.1778 -0.813369) (xy -0.1778 2.4384) (xy 1.8542 2.4384) (xy 1.8542 1.9812)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "11e89eb7-5507-4484-a100-39f69a0df679")
+		)
+		(fp_poly
+			(pts
+				(xy -9.454162 2.21615) (xy -9.4615 1.9939) (xy -10.21715 1.987173) (xy -10.9728 1.980445) (xy -10.9728 1.1176)
+				(xy -9.779 1.1176) (xy -9.779 0.6604) (xy -10.9728 0.6604) (xy -10.9728 -0.3556) (xy -9.4234 -0.3556)
+				(xy -9.4234 -0.8128) (xy -11.4808 -0.8128) (xy -11.4808 2.4384) (xy -9.446823 2.4384) (xy -9.454162 2.21615)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "3ead9362-83f1-461e-8573-eff688f80e63")
+		)
+		(fp_poly
+			(pts
+				(xy -6.0452 2.4384) (xy -4.5212 2.4384) (xy -4.5212 1.9812) (xy -6.0452 1.9812) (xy -6.0452 1.1176)
+				(xy -4.8514 1.1176) (xy -4.8514 0.6604) (xy -6.0452 0.6604) (xy -6.0452 -0.3556) (xy -4.468423 -0.3556)
+				(xy -4.475762 -0.57785) (xy -4.4831 -0.8001) (xy -6.0452 -0.813534) (xy -6.0452 -2.4384) (xy -12.5222 -2.4384)
+				(xy -12.5222 3.5306) (xy -12.0142 3.5306) (xy -12.0142 -1.9304) (xy -6.5532 -1.9304) (xy -6.5532 3.5306)
+				(xy -12.0142 3.5306) (xy -12.5222 3.5306) (xy -12.5222 4.0132) (xy -6.0452 4.0132) (xy -6.0452 2.4384)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "7770cdbb-57c6-49d1-94ae-d089b575f0b4")
+		)
+		(fp_poly
+			(pts
+				(xy 2.685008 2.43291) (xy 2.957016 2.4257) (xy 4.4577 0.149554) (xy 4.464308 1.293977) (xy 4.470917 2.438401)
+				(xy 4.724658 2.4384) (xy 4.9784 2.4384) (xy 4.9784 -0.8128) (xy 4.554809 -0.8128) (xy 3.737935 0.41275)
+				(xy 2.921062 1.6383) (xy 2.921 -0.8128) (xy 2.683933 -0.8128) (xy 2.578785 -0.811092) (xy 2.493634 -0.806512)
+				(xy 2.440692 -0.799874) (xy 2.429933 -0.795866) (xy 2.426976 -0.768164) (xy 2.424182 -0.693994)
+				(xy 2.421598 -0.577688) (xy 2.419269 -0.423578) (xy 2.417239 -0.235996) (xy 2.415553 -0.019274)
+				(xy 2.414257 0.222255) (xy 2.413396 0.48426) (xy 2.413015 0.76241) (xy 2.413 0.830593) (xy 2.413 2.440119)
+				(xy 2.685008 2.43291)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "c20e4a98-5db6-4ec9-8ff9-9187b9d3fd55")
+		)
+		(fp_poly
+			(pts
+				(xy 1.193902 -1.884169) (xy 1.211102 -1.904924) (xy 1.206875 -1.93675) (xy 1.193102 -1.999768) (xy 1.176511 -2.08045)
+				(xy 1.17389 -2.093642) (xy 1.160035 -2.150539) (xy 1.13788 -2.18354) (xy 1.093614 -2.203555) (xy 1.013423 -2.221494)
+				(xy 1.011537 -2.22187) (xy 0.90844 -2.25159) (xy 0.806793 -2.295111) (xy 0.764638 -2.319338) (xy 0.6604 -2.38832)
+				(xy 0.6604 -3.6322) (xy 0.3048 -3.6322) (xy 0.3048 -1.9304) (xy 0.4445 -1.9304) (xy 0.524604 -1.932162)
+				(xy 0.566321 -1.941014) (xy 0.582032 -1.962302) (xy 0.5842 -1.990725) (xy 0.58935 -2.061532) (xy 0.599492 -2.127513)
+				(xy 0.614785 -2.203976) (xy 0.730897 -2.092721) (xy 0.858261 -1.988615) (xy 0.986468 -1.916469)
+				(xy 1.104871 -1.881846) (xy 1.138803 -1.8796) (xy 1.193902 -1.884169)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "7877911d-bc6b-40a6-b508-33195cb162a4")
+		)
+		(fp_poly
+			(pts
+				(xy 9.094872 -1.916694) (xy 9.264307 -1.961994) (xy 9.402512 -2.046886) (xy 9.510476 -2.171945)
+				(xy 9.57869 -2.308898) (xy 9.596546 -2.360134) (xy 9.610423 -2.41413) (xy 9.621032 -2.478614) (xy 9.629082 -2.561317)
+				(xy 9.635284 -2.669968) (xy 9.640346 -2.812297) (xy 9.644981 -2.996034) (xy 9.645988 -3.04165) (xy 9.658825 -3.6322)
+				(xy 9.325177 -3.6322) (xy 9.317138 -3.04165) (xy 9.313527 -2.831709) (xy 9.308027 -2.666177) (xy 9.299076 -2.538664)
+				(xy 9.285111 -2.442778) (xy 9.264568 -2.37213) (xy 9.235883 -2.320329) (xy 9.197495 -2.280986) (xy 9.147838 -2.247709)
+				(xy 9.118996 -2.231722) (xy 8.999597 -2.192195) (xy 8.859852 -2.183059) (xy 8.716235 -2.202081)
+				(xy 8.585219 -2.247028) (xy 8.483276 -2.315666) (xy 8.480649 -2.318258) (xy 8.4074 -2.391507) (xy 8.4074 -3.6322)
+				(xy 8.1026 -3.6322) (xy 8.1026 -1.927616) (xy 8.22176 -1.935358) (xy 8.295223 -1.943058) (xy 8.334129 -1.960795)
+				(xy 8.354714 -1.999265) (xy 8.362875 -2.028306) (xy 8.380066 -2.083043) (xy 8.398515 -2.095837)
+				(xy 8.427864 -2.075715) (xy 8.560715 -1.990222) (xy 8.727944 -1.933558) (xy 8.893216 -1.910409)
+				(xy 9.094872 -1.916694)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "300450c5-45cb-4d5a-8338-b8e145f5260f")
+		)
+		(fp_poly
+			(pts
+				(xy 2.67335 -1.935537) (xy 2.8321 -1.9431) (xy 2.845484 -3.6322) (xy 2.695917 -3.6322) (xy 2.61219 -3.630868)
+				(xy 2.565884 -3.622677) (xy 2.543622 -3.601334) (xy 2.532029 -3.560547) (xy 2.530815 -3.554529)
+				(xy 2.515281 -3.476858) (xy 2.41969 -3.55241) (xy 2.273927 -3.636951) (xy 2.107716 -3.675838) (xy 1.919877 -3.669278)
+				(xy 1.840378 -3.654419) (xy 1.720074 -3.604847) (xy 1.605756 -3.517642) (xy 1.512532 -3.405147)
+				(xy 1.491512 -3.369393) (xy 1.474384 -3.334972) (xy 1.461001 -3.299011) (xy 1.450806 -3.25482) (xy 1.443243 -3.19571)
+				(xy 1.437755 -3.114991) (xy 1.433784 -3.005974) (xy 1.430774 -2.861969) (xy 1.428168 -2.676286)
+				(xy 1.427212 -2.59715) (xy 1.419324 -1.9304) (xy 1.7272 -1.9304) (xy 1.7272 -2.459189) (xy 1.728816 -2.680117)
+				(xy 1.734417 -2.856652) (xy 1.745133 -2.995121) (xy 1.762092 -3.101852) (xy 1.786425 -3.183172)
+				(xy 1.81926 -3.245408) (xy 1.861727 -3.294886) (xy 1.879136 -3.310412) (xy 1.988877 -3.371542) (xy 2.117825 -3.394353)
+				(xy 2.252514 -3.379424) (xy 2.379478 -3.327335) (xy 2.437245 -3.286374) (xy 2.5146 -3.221284) (xy 2.5146 -1.927975)
+				(xy 2.67335 -1.935537)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "e90a6d54-187f-45e0-b5ee-68cf699561ed")
+		)
+		(fp_poly
+			(pts
+				(xy -3.346336 -1.910351) (xy -3.165998 -1.937068) (xy -3.022398 -1.994053) (xy -2.908415 -2.085947)
+				(xy -2.816924 -2.217394) (xy -2.788891 -2.273616) (xy -2.770478 -2.316222) (xy -2.756247 -2.35898)
+				(xy -2.745544 -2.409176) (xy -2.737712 -2.474093) (xy -2.7321 -2.561016) (xy -2.728051 -2.67723)
+				(xy -2.724911 -2.830018) (xy -2.722166 -3.01625) (xy -2.713832 -3.6322) (xy -3.017088 -3.6322) (xy -3.026713 -3.06705)
+				(xy -3.030333 -2.879183) (xy -3.034414 -2.73473) (xy -3.039621 -2.626304) (xy -3.04662 -2.546519)
+				(xy -3.056076 -2.487989) (xy -3.068653 -2.443328) (xy -3.085018 -2.40515) (xy -3.086619 -2.401939)
+				(xy -3.153238 -2.300008) (xy -3.237396 -2.234701) (xy -3.35044 -2.199174) (xy -3.439462 -2.189137)
+				(xy -3.609415 -2.193447) (xy -3.74865 -2.231957) (xy -3.861446 -2.30314) (xy -3.937 -2.366715) (xy -3.937 -3.6322)
+				(xy -4.2672 -3.6322) (xy -4.2672 -1.9304) (xy -4.141351 -1.9304) (xy -4.066172 -1.932315) (xy -4.026853 -1.944141)
+				(xy -4.008464 -1.974996) (xy -3.999219 -2.017197) (xy -3.982936 -2.103995) (xy -3.871484 -2.033315)
+				(xy -3.715494 -1.954595) (xy -3.550379 -1.914468) (xy -3.361261 -1.909451) (xy -3.346336 -1.910351)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "79e70133-8e05-44c8-8132-805cbfaac5c2")
+		)
+		(fp_poly
+			(pts
+				(xy -0.4064 -1.9304) (xy 0.0508 -1.9304) (xy 0.0508 -2.1844) (xy -0.4064 -2.1844) (xy -0.4064 -2.740386)
+				(xy -0.406101 -2.941399) (xy -0.403699 -3.097477) (xy -0.396934 -3.214485) (xy -0.383549 -3.298288)
+				(xy -0.361285 -3.354751) (xy -0.327885 -3.389738) (xy -0.281089 -3.409115) (xy -0.218639 -3.418746)
+				(xy -0.143094 -3.424189) (xy 0.0254 -3.434917) (xy 0.0254 -3.518781) (xy 0.021963 -3.599044) (xy 0.004953 -3.647731)
+				(xy -0.035677 -3.672563) (xy -0.109976 -3.681259) (xy -0.186868 -3.681885) (xy -0.294259 -3.676391)
+				(xy -0.395756 -3.663151) (xy -0.463791 -3.646695) (xy -0.53692 -3.618144) (xy -0.594849 -3.586549)
+				(xy -0.639453 -3.545904) (xy -0.67261 -3.490201) (xy -0.696195 -3.413435) (xy -0.712086 -3.309599)
+				(xy -0.722159 -3.172687) (xy -0.72829 -2.996692) (xy -0.732176 -2.78765) (xy -0.741284 -2.1844)
+				(xy -1.022647 -2.1844) (xy -1.006903 -2.08915) (xy -0.996451 -2.0184) (xy -0.991063 -1.967321) (xy -0.99088 -1.96215)
+				(xy -0.966019 -1.940361) (xy -0.89208 -1.930854) (xy -0.8636 -1.9304) (xy -0.7366 -1.9304) (xy -0.7366 -1.726402)
+				(xy -0.735974 -1.621546) (xy -0.728079 -1.556586) (xy -0.70389 -1.520649) (xy -0.654381 -1.502862)
+				(xy -0.570528 -1.492353) (xy -0.53975 -1.489242) (xy -0.4064 -1.475593) (xy -0.4064 -1.9304)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "5cad22d9-bf1f-43de-ae76-d3022a677981")
+		)
+		(fp_poly
+			(pts
+				(xy 10.455688 -1.501638) (xy 10.462109 -1.550818) (xy 10.464564 -1.637972) (xy 10.4648 -1.699082)
+				(xy 10.4648 -1.9304) (xy 10.922 -1.9304) (xy 10.922 -2.1844) (xy 10.458248 -2.1844) (xy 10.469524 -2.756642)
+				(xy 10.473487 -2.955333) (xy 10.478213 -3.109146) (xy 10.486145 -3.223975) (xy 10.499726 -3.305713)
+				(xy 10.521399 -3.360254) (xy 10.553607 -3.393493) (xy 10.598792 -3.411324) (xy 10.659397 -3.419639)
+				(xy 10.737865 -3.424335) (xy 10.746462 -3.424813) (xy 10.839702 -3.431159) (xy 10.892146 -3.439565)
+				(xy 10.913764 -3.45391) (xy 10.914527 -3.478071) (xy 10.911827 -3.489139) (xy 10.900385 -3.557413)
+				(xy 10.896946 -3.61315) (xy 10.8966 -3.683) (xy 10.69975 -3.680816) (xy 10.593956 -3.676924) (xy 10.498951 -3.668708)
+				(xy 10.433802 -3.657868) (xy 10.42973 -3.656725) (xy 10.357439 -3.622912) (xy 10.293106 -3.576358)
+				(xy 10.252965 -3.535906) (xy 10.221765 -3.492934) (xy 10.198395 -3.440695) (xy 10.181739 -3.37244)
+				(xy 10.170686 -3.281423) (xy 10.164123 -3.160894) (xy 10.160936 -3.004106) (xy 10.160012 -2.804311)
+				(xy 10.16 -2.769415) (xy 10.16 -2.1844) (xy 9.877816 -2.1844) (xy 9.8933 -1.9431) (xy 10.02665 -1.935422)
+				(xy 10.16 -1.927745) (xy 10.16 -1.4986) (xy 10.272222 -1.4986) (xy 10.35083 -1.49523) (xy 10.412069 -1.486796)
+				(xy 10.424622 -1.483182) (xy 10.443721 -1.481929) (xy 10.455688 -1.501638)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "330fc296-942b-473d-a4aa-ac5bcc281095")
+		)
+		(fp_poly
+			(pts
+				(xy 7.174804 -1.919555) (xy 7.264329 -1.926557) (xy 7.331008 -1.940858) (xy 7.388773 -1.964609)
+				(xy 7.4041 -1.972624) (xy 7.558665 -2.08229) (xy 7.671912 -2.221221) (xy 7.743065 -2.388073) (xy 7.771349 -2.581504)
+				(xy 7.771842 -2.60985) (xy 7.7724 -2.794) (xy 6.523763 -2.794) (xy 6.540388 -2.87655) (xy 6.578893 -3.002709)
+				(xy 6.638814 -3.125143) (xy 6.71085 -3.227691) (xy 6.777951 -3.289361) (xy 6.928425 -3.35919) (xy 7.106783 -3.392166)
+				(xy 7.305422 -3.387783) (xy 7.516737 -3.345537) (xy 7.536511 -3.339742) (xy 7.606755 -3.320389)
+				(xy 7.653318 -3.310931) (xy 7.663155 -3.311288) (xy 7.670719 -3.3386) (xy 7.681312 -3.399161) (xy 7.686384 -3.434014)
+				(xy 7.702188 -3.549313) (xy 7.540444 -3.604359) (xy 7.361785 -3.649766) (xy 7.17311 -3.67128) (xy 6.992956 -3.667824)
+				(xy 6.858615 -3.64396) (xy 6.658151 -3.564982) (xy 6.491693 -3.451308) (xy 6.362408 -3.30552) (xy 6.294905 -3.183907)
+				(xy 6.228446 -2.977832) (xy 6.207618 -2.770992) (xy 6.230266 -2.570132) (xy 6.231874 -2.5654) (xy 6.554457 -2.5654)
+				(xy 7.4422 -2.5654) (xy 7.442105 -2.49555) (xy 7.419838 -2.398758) (xy 7.361947 -2.305971) (xy 7.28142 -2.235944)
+				(xy 7.251959 -2.220971) (xy 7.102371 -2.183366) (xy 6.953439 -2.19054) (xy 6.814713 -2.238548) (xy 6.695742 -2.323446)
+				(xy 6.606076 -2.44129) (xy 6.579861 -2.498582) (xy 6.554457 -2.5654) (xy 6.231874 -2.5654) (xy 6.294234 -2.382001)
+				(xy 6.397369 -2.213344) (xy 6.537514 -2.07091) (xy 6.6802 -1.977543) (xy 6.742258 -1.948875) (xy 6.805093 -1.930973)
+				(xy 6.883342 -1.921459) (xy 6.991646 -1.917953) (xy 7.0485 -1.9177) (xy 7.174804 -1.919555)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "4730d179-51ce-45cc-b79a-7dabdbd48007")
+		)
+		(fp_poly
+			(pts
+				(xy 9.341517 2.369408) (xy 9.354354 2.333592) (xy 9.382826 2.254214) (xy 9.425406 2.135524) (xy 9.480569 1.981775)
+				(xy 9.54679 1.797217) (xy 9.622543 1.586102) (xy 9.706303 1.352682) (xy 9.796545 1.101208) (xy 9.891741 0.835932)
+				(xy 9.915801 0.768889) (xy 10.011272 0.502459) (xy 10.101474 0.249966) (xy 10.184964 0.015499) (xy 10.260299 -0.196851)
+				(xy 10.326035 -0.382996) (xy 10.38073 -0.538846) (xy 10.422941 -0.660312) (xy 10.451223 -0.743303)
+				(xy 10.464135 -0.78373) (xy 10.4648 -0.786861) (xy 10.440478 -0.799286) (xy 10.371644 -0.808013)
+				(xy 10.264493 -0.812402) (xy 10.213202 -0.8128) (xy 9.961604 -0.8128) (xy 9.886463 -0.60325) (xy 9.839172 -0.47069)
+				(xy 9.786438 -0.321854) (xy 9.739413 -0.188219) (xy 9.738011 -0.184215) (xy 9.6647 0.025269) (xy 9.066089 0.025335)
+				(xy 8.467479 0.0254) (xy 8.171811 -0.8128) (xy 7.647281 -0.8128) (xy 7.723128 -0.60325) (xy 7.745649 -0.540757)
+				(xy 7.783477 -0.435471) (xy 7.834805 -0.29243) (xy 7.897828 -0.116671) (xy 7.970739 0.086767) (xy 8.051735 0.312848)
+				(xy 8.121626 0.508) (xy 8.639044 0.508) (xy 9.494972 0.508) (xy 9.41021 0.74295) (xy 9.368725 0.858781)
+				(xy 9.316932 1.004645) (xy 9.261184 1.162583) (xy 9.207836 1.314641) (xy 9.203465 1.32715) (xy 9.159502 1.45053)
+				(xy 9.120694 1.554779) (xy 9.090318 1.63145) (xy 9.071648 1.6721) (xy 9.068042 1.6764) (xy 9.055031 1.653884)
+				(xy 9.028972 1.592284) (xy 8.993425 1.500528) (xy 8.951949 1.387542) (xy 8.943991 1.36525) (xy 8.889869 1.21303)
+				(xy 8.830092 1.044944) (xy 8.772875 0.884093) (xy 8.736212 0.78105) (xy 8.639044 0.508) (xy 8.121626 0.508)
+				(xy 8.139008 0.556532) (xy 8.230753 0.812783) (xy 8.303491 1.016) (xy 8.808009 2.4257) (xy 9.06212 2.432908)
+				(xy 9.316232 2.440116) (xy 9.341517 2.369408)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "6ff68ec2-5985-451b-89a0-a863ef4703d4")
+		)
+		(fp_poly
+			(pts
+				(xy -1.604805 -1.916296) (xy -1.459153 -1.941895) (xy -1.4224 -1.952382) (xy -1.2827 -1.99666) (xy -1.291375 -2.13498)
+				(xy -1.297045 -2.212238) (xy -1.302465 -2.264833) (xy -1.305321 -2.278779) (xy -1.328788 -2.271383)
+				(xy -1.383696 -2.246545) (xy -1.434301 -2.221629) (xy -1.527769 -2.1827) (xy -1.624878 -2.163553)
+				(xy -1.733459 -2.159) (xy -1.82968 -2.161025) (xy -1.891878 -2.170416) (xy -1.936773 -2.192144)
+				(xy -1.981084 -2.23118) (xy -1.983154 -2.233246) (xy -2.042077 -2.318695) (xy -2.056545 -2.406544)
+				(xy -2.025862 -2.486801) (xy -2.002645 -2.512833) (xy -1.955148 -2.542866) (xy -1.872829 -2.581393)
+				(xy -1.769507 -2.622267) (xy -1.709175 -2.643374) (xy -1.526694 -2.713624) (xy -1.388714 -2.789593)
+				(xy -1.288952 -2.875823) (xy -1.221122 -2.976854) (xy -1.208251 -3.005359) (xy -1.180071 -3.082817)
+				(xy -1.170997 -3.146826) (xy -1.179132 -3.222555) (xy -1.188354 -3.269327) (xy -1.239407 -3.413168)
+				(xy -1.326326 -3.524448) (xy -1.450744 -3.604265) (xy -1.614291 -3.653715) (xy -1.78862 -3.672841)
+				(xy -1.916408 -3.672949) (xy -2.038214 -3.663536) (xy -2.1209 -3.648918) (xy -2.21528 -3.619755)
+				(xy -2.304574 -3.58487) (xy -2.33321 -3.571175) (xy -2.388867 -3.536375) (xy -2.408123 -3.50043)
+				(xy -2.40306 -3.449145) (xy -2.391406 -3.366117) (xy -2.3876 -3.300041) (xy -2.3876 -3.228232) (xy -2.26695 -3.290484)
+				(xy -2.123112 -3.349365) (xy -1.972992 -3.384407) (xy -1.827741 -3.395243) (xy -1.698513 -3.381505)
+				(xy -1.59646 -3.342826) (xy -1.558911 -3.313819) (xy -1.505358 -3.23435) (xy -1.50079 -3.154671)
+				(xy -1.543451 -3.076983) (xy -1.631583 -3.003483) (xy -1.76343 -2.936373) (xy -1.898334 -2.88902)
+				(xy -2.076847 -2.824191) (xy -2.209104 -2.748403) (xy -2.299207 -2.657404) (xy -2.351257 -2.546939)
+				(xy -2.369354 -2.412755) (xy -2.369458 -2.4003) (xy -2.346015 -2.248004) (xy -2.278301 -2.11712)
+				(xy -2.170236 -2.012994) (xy -2.034797 -1.944086) (xy -1.912479 -1.917123) (xy -1.762532 -1.90795)
+				(xy -1.604805 -1.916296)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "25e20eac-1859-4c36-ae21-df20fcd6e9ec")
+		)
+		(fp_poly
+			(pts
+				(xy 11.902293 -1.921917) (xy 12.019473 -1.935593) (xy 12.111602 -1.960269) (xy 12.119582 -1.96327)
+				(xy 12.237665 -2.00884) (xy 12.225441 -2.11567) (xy 12.213554 -2.20698) (xy 12.198011 -2.254505)
+				(xy 12.169365 -2.264932) (xy 12.118168 -2.244945) (xy 12.074806 -2.222258) (xy 11.966725 -2.180939)
+				(xy 11.846131 -2.160387) (xy 11.724853 -2.15958) (xy 11.614723 -2.177496) (xy 11.527571 -2.213112)
+				(xy 11.475225 -2.265405) (xy 11.471178 -2.274437) (xy 11.456068 -2.356971) (xy 11.464269 -2.443195)
+				(xy 11.487348 -2.497783) (xy 11.523232 -2.523691) (xy 11.596133 -2.560571) (xy 11.694918 -2.603205)
+				(xy 11.791898 -2.64043) (xy 11.947166 -2.699646) (xy 12.062482 -2.751666) (xy 12.147022 -2.802215)
+				(xy 12.209962 -2.857022) (xy 12.260479 -2.921812) (xy 12.272216 -2.940198) (xy 12.311226 -3.022518)
+				(xy 12.326699 -3.115486) (xy 12.327333 -3.17742) (xy 12.305792 -3.331066) (xy 12.246547 -3.454201)
+				(xy 12.145896 -3.552108) (xy 12.0142 -3.624161) (xy 11.94334 -3.643578) (xy 11.839005 -3.65944)
+				(xy 11.71847 -3.670422) (xy 11.599008 -3.675197) (xy 11.497897 -3.672439) (xy 11.4554 -3.667048)
+				(xy 11.357349 -3.643212) (xy 11.25999 -3.611476) (xy 11.178799 -3.577641) (xy 11.129256 -3.547509)
+				(xy 11.125159 -3.54325) (xy 11.10804 -3.487185) (xy 11.111298 -3.385153) (xy 11.113461 -3.366599)
+				(xy 11.131114 -3.225312) (xy 11.212784 -3.275786) (xy 11.33475 -3.33335) (xy 11.476231 -3.372279)
+				(xy 11.623215 -3.391316) (xy 11.761691 -3.389202) (xy 11.877646 -3.36468) (xy 11.92853 -3.34004)
+				(xy 11.983783 -3.276311) (xy 12.003412 -3.189678) (xy 11.989474 -3.113274) (xy 11.9488 -3.051619)
+				(xy 11.872855 -2.994776) (xy 11.756585 -2.939829) (xy 11.594933 -2.883866) (xy 11.587496 -2.881578)
+				(xy 11.406772 -2.811049) (xy 11.273033 -2.724099) (xy 11.184809 -2.619555) (xy 11.14844 -2.53198)
+				(xy 11.131032 -2.377395) (xy 11.161318 -2.232505) (xy 11.236249 -2.104638) (xy 11.352773 -2.001128)
+				(xy 11.37506 -1.987325) (xy 11.434836 -1.954876) (xy 11.489983 -1.934394) (xy 11.554956 -1.923175)
+				(xy 11.644211 -1.918518) (xy 11.7475 -1.9177) (xy 11.902293 -1.921917)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "3119d32a-ea95-4701-a5e3-1aa96ad73192")
+		)
+		(fp_poly
+			(pts
+				(xy 4.265727 -1.938772) (xy 4.414281 -2.009738) (xy 4.537782 -2.118157) (xy 4.542652 -2.123973)
+				(xy 4.624005 -2.2225) (xy 4.688755 -2.139934) (xy 4.750312 -2.077398) (xy 4.832387 -2.013188) (xy 4.872302 -1.987534)
+				(xy 4.932201 -1.954996) (xy 4.987355 -1.934455) (xy 5.052231 -1.923202) (xy 5.141293 -1.918526)
+				(xy 5.2451 -1.9177) (xy 5.36808 -1.919232) (xy 5.454391 -1.925411) (xy 5.518111 -1.938605) (xy 5.573318 -1.961187)
+				(xy 5.604793 -1.978259) (xy 5.682425 -2.032018) (xy 5.749206 -2.093505) (xy 5.765004 -2.112556)
+				(xy 5.804367 -2.170025) (xy 5.835429 -2.228374) (xy 5.859333 -2.294623) (xy 5.87722 -2.375795) (xy 5.890232 -2.478911)
+				(xy 5.899511 -2.610991) (xy 5.906199 -2.779057) (xy 5.911437 -2.990129) (xy 5.911973 -3.01625) (xy 5.924443 -3.6322)
+				(xy 5.591323 -3.6322) (xy 5.583311 -3.02895) (xy 5.579735 -2.815108) (xy 5.574376 -2.646024) (xy 5.565797 -2.515653)
+				(xy 5.552561 -2.417954) (xy 5.53323 -2.346884) (xy 5.506367 -2.2964) (xy 5.470534 -2.260461) (xy 5.424294 -2.233024)
+				(xy 5.390375 -2.217886) (xy 5.289533 -2.192665) (xy 5.169386 -2.18697) (xy 5.049161 -2.199484) (xy 4.948084 -2.228888)
+				(xy 4.908823 -2.250891) (xy 4.861046 -2.289201) (xy 4.823884 -2.330085) (xy 4.796014 -2.380212)
+				(xy 4.776119 -2.446255) (xy 4.762877 -2.534885) (xy 4.754969 -2.652771) (xy 4.751074 -2.806586)
+				(xy 4.749873 -3.003) (xy 4.749839 -3.05435) (xy 4.7498 -3.6322) (xy 4.422977 -3.6322) (xy 4.414938 -3.04165)
+				(xy 4.411386 -2.832562) (xy 4.40612 -2.667815) (xy 4.397694 -2.540952) (xy 4.384664 -2.445515) (xy 4.365584 -2.375046)
+				(xy 4.339008 -2.323086) (xy 4.303492 -2.283178) (xy 4.257591 -2.248865) (xy 4.234216 -2.234171)
+				(xy 4.123272 -2.193173) (xy 3.991004 -2.184535) (xy 3.853312 -2.206043) (xy 3.726095 -2.255484)
+				(xy 3.638896 -2.317039) (xy 3.621125 -2.335064) (xy 3.607453 -2.355824) (xy 3.597344 -2.385721)
+				(xy 3.590259 -2.431154) (xy 3.585662 -2.498524) (xy 3.583015 -2.59423) (xy 3.58178 -2.724672) (xy 3.58142 -2.896252)
+				(xy 3.5814 -3.001627) (xy 3.5814 -3.6322) (xy 3.2512 -3.6322) (xy 3.2512 -1.9304) (xy 3.375373 -1.9304)
+				(xy 3.449902 -1.932342) (xy 3.488738 -1.944546) (xy 3.506982 -1.976579) (xy 3.516292 -2.019662)
+				(xy 3.533038 -2.108925) (xy 3.615736 -2.045848) (xy 3.767124 -1.958797) (xy 3.93241 -1.912481) (xy 4.101857 -1.906079)
+				(xy 4.265727 -1.938772)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "ecd07ddd-5ea5-44e0-b820-dd1a673e6b59")
+		)
+		(fp_poly
+			(pts
+				(xy -1.156496 2.35585) (xy -1.149121 2.307588) (xy -1.13606 2.216251) (xy -1.11803 2.087163) (xy -1.095746 1.925649)
+				(xy -1.069922 1.737033) (xy -1.041274 1.52664) (xy -1.010517 1.299794) (xy -0.978367 1.06182) (xy -0.945539 0.818042)
+				(xy -0.912748 0.573785) (xy -0.880709 0.334372) (xy -0.850138 0.105129) (xy -0.821751 -0.10862)
+				(xy -0.796262 -0.30155) (xy -0.774386 -0.468338) (xy -0.75684 -0.603658) (xy -0.744337 -0.702187)
+				(xy -0.737595 -0.7586) (xy -0.7366 -0.7697) (xy -0.74238 -0.789512) (xy -0.765663 -0.802206) (xy -0.815367 -0.809301)
+				(xy -0.900411 -0.81231) (xy -0.990117 -0.8128) (xy -1.105643 -0.812171) (xy -1.180115 -0.808892)
+				(xy -1.223272 -0.800867) (xy -1.244858 -0.786006) (xy -1.254612 -0.762214) (xy -1.256121 -0.75565)
+				(xy -1.261775 -0.718806) (xy -1.272785 -0.637093) (xy -1.288447 -0.516079) (xy -1.308057 -0.361332)
+				(xy -1.330914 -0.178422) (xy -1.356315 0.027084) (xy -1.383556 0.249617) (xy -1.397984 0.3683) (xy -1.42597 0.596774)
+				(xy -1.45269 0.810529) (xy -1.477419 1.004087) (xy -1.499432 1.171971) (xy -1.518006 1.308702) (xy -1.532417 1.408804)
+				(xy -1.541941 1.466797) (xy -1.54473 1.478515) (xy -1.558238 1.475217) (xy -1.588423 1.436547) (xy -1.636332 1.36072)
+				(xy -1.703013 1.245949) (xy -1.789512 1.090452) (xy -1.896878 0.892443) (xy -1.980764 0.735565)
+				(xy -2.07848 0.552716) (xy -2.168845 0.384947) (xy -2.249069 0.237335) (xy -2.316363 0.114955) (xy -2.367937 0.022886)
+				(xy -2.401003 -0.033797) (xy -2.412564 -0.050375) (xy -2.427298 -0.028744) (xy -2.463135 0.032488)
+				(xy -2.517192 0.128139) (xy -2.586584 0.253031) (xy -2.668429 0.401983) (xy -2.759843 0.569815)
+				(xy -2.830794 0.700968) (xy -2.928299 0.881315) (xy -3.019042 1.048397) (xy -3.099987 1.196682)
+				(xy -3.168099 1.32064) (xy -3.220342 1.414739) (xy -3.25368 1.473449) (xy -3.264092 1.490458) (xy -3.273438 1.489423)
+				(xy -3.284536 1.460314) (xy -3.297955 1.399652) (xy -3.314265 1.303958) (xy -3.334035 1.169753)
+				(xy -3.357836 0.993559) (xy -3.386236 0.771897) (xy -3.400647 0.656565) (xy -3.428164 0.435644)
+				(xy -3.455563 0.216852) (xy -3.48175 0.008857) (xy -3.505627 -0.179671) (xy -3.526097 -0.340065)
+				(xy -3.542066 -0.463656) (xy -3.548738 -0.51435) (xy -3.588478 -0.8128) (xy -4.0894 -0.8128) (xy -4.0894 -0.749013)
+				(xy -4.086068 -0.713852) (xy -4.07655 -0.633751) (xy -4.061571 -0.514097) (xy -4.041853 -0.360276)
+				(xy -4.018118 -0.177677) (xy -3.991088 0.028312) (xy -3.961487 0.252305) (xy -3.930037 0.488914)
+				(xy -3.897461 0.732752) (xy -3.86448 0.97843) (xy -3.831817 1.220562) (xy -3.800196 1.45376) (xy -3.770338 1.672636)
+				(xy -3.742966 1.871804) (xy -3.718802 2.045875) (xy -3.698569 2.189462) (xy -3.68299 2.297177) (xy -3.672788 2.363634)
+				(xy -3.669595 2.38125) (xy -3.65972 2.409385) (xy -3.638581 2.42634) (xy -3.59533 2.434885) (xy -3.51912 2.437792)
+				(xy -3.447567 2.437973) (xy -3.2385 2.437545) (xy -2.8321 1.665482) (xy -2.736305 1.484885) (xy -2.64756 1.320248)
+				(xy -2.568676 1.176581) (xy -2.502465 1.058891) (xy -2.451736 0.972188) (xy -2.419301 0.921482)
+				(xy -2.408343 0.910259) (xy -2.392766 0.936) (xy -2.356479 1.00138) (xy -2.30236 1.101048) (xy -2.233288 1.229652)
+				(xy -2.15214 1.381839) (xy -2.061796 1.552258) (xy -1.992928 1.68275) (xy -1.59487 2.4384) (xy -1.170702 2.4384)
+				(xy -1.156496 2.35585)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "46e4033e-2521-4697-b761-d39fceb2354d")
 		)
 		(embedded_fonts no)
 	)
