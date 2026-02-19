@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Eurorack")(type "KiCad")(uri "../lib/Eurorack.pretty")(options "")(descr ""))
+)
