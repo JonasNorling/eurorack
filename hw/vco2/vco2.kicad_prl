@@ -33,7 +33,6 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "ratsnest",
       "footprints_front",
       "footprints_back",
       "footprint_values",
