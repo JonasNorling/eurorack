@@ -1,0 +1,100 @@
+(footprint "Led 3mm hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.5 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "173c7b9f-0839-44b8-9ca0-a7cfd7b90859")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Led 3mm hole"
+		(at 1.5 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d6901645-99ac-48df-b08c-b2f972e32fc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22310b5c-7f61-4752-af3f-73417c4e8a11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f91ac1b7-e1ef-4696-9bdc-c05caa6f90d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "464fa741-ca4e-4624-a5d0-14314bb04d0d")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 3.04 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d5645f85-2981-4faa-aa79-d8b25178a411")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c10121e4-952f-4176-897f-b6fac87f9b8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 0)
+		(size 1.905 1.905)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "76ece7f3-d230-4992-9a61-d92b1a5cb8e3")
+	)
+	(embedded_fonts no)
+)

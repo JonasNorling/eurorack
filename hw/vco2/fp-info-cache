@@ -1,4 +1,4 @@
-27264138709656248
+27274771781584422
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62216,12 +62216,33 @@ Eurorack panel 6HP
 2
 0
 Eurorack
+Eurorack panel 12HP
+
+
+0
+4
+0
+Eurorack
+IDC-Header_2x05_P2.54mm_Vertical
+Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x05 2.54mm double row
+0
+10
+10
+Eurorack
 IDC-Header_2x08_P2.54mm_Vertical
 Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
 Through hole vertical IDC box header THT 2x08 2.54mm double row
 0
 16
 16
+Eurorack
+Jack_3.5mm_PJ398SM
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
 Eurorack
 LED 1206 reverse mount with hole
 LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -62230,12 +62251,33 @@ diode reverse
 3
 2
 Eurorack
+Led 3mm hole
+
+
+0
+0
+0
+Eurorack
 Multicomp Banana jack
 
 
 0
 2
 1
+Eurorack
+Pot hole 6mm shaft
+
+
+0
+0
+0
+Eurorack
+Pot hole M7 shaft
+
+
+0
+0
+0
 Eurorack
 Screw slot 3.2mm
 
