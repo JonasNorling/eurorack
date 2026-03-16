@@ -2755,6 +2755,10 @@
 		(uuid "0d87ad91-ffb1-45dc-b53d-dee2f5afb983")
 	)
 	(no_connect
+		(at 31.75 78.74)
+		(uuid "374b00ef-c8ae-4516-acc0-8cb9f9598385")
+	)
+	(no_connect
 		(at 31.75 124.46)
 		(uuid "3e1ff1e8-f041-4e09-9010-c71c6f645368")
 	)
@@ -3816,16 +3820,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 71.12) (xy 33.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72afe09c-fea2-419f-8b02-967ea7646df5")
-	)
-	(wire
-		(pts
 			(xy 118.11 157.48) (xy 118.11 181.61)
 		)
 		(stroke
@@ -4356,16 +4350,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 71.12) (xy 35.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badb5fe0-8440-464e-9854-c67cbd774bf3")
-	)
-	(wire
-		(pts
 			(xy 160.02 40.64) (xy 152.4 40.64)
 		)
 		(stroke
@@ -4523,16 +4507,6 @@
 			(type default)
 		)
 		(uuid "ca5bcd8b-acf9-433a-988a-2cc862636fdf")
-	)
-	(wire
-		(pts
-			(xy 33.02 78.74) (xy 31.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5be841-6343-4a48-8216-301b6b6d5b56")
 	)
 	(wire
 		(pts
@@ -5410,28 +5384,6 @@
 			)
 		)
 	)
-	(global_label "BACKPLANE_CV"
-		(shape input)
-		(at 35.56 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2fda246-f744-4a92-a9b7-5a16584dae2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6362 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:-12V")
 		(at 166.37 151.13 180)
@@ -5543,6 +5495,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -6585,7 +6546,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k3"
 			(at 29.21 27.9399 0)
 			(effects
 				(font
@@ -6828,6 +6789,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4370389"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7ad8dffb-5a2c-4fc9-a1f0-b5e6e769d647")
 		)
@@ -7040,6 +7010,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -7269,6 +7248,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 240.03 101.6 0)
 			(effects
 				(font
@@ -7715,6 +7703,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 240.03 78.74 0)
 			(effects
 				(font
@@ -8314,7 +8311,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 82.55 33.0201 0)
 			(effects
 				(font
@@ -8547,6 +8544,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 240.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 240.03 31.75 0)
 			(effects
 				(font
@@ -9529,6 +9535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4370389"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7ad8dffb-5a2c-4fc9-a1f0-b5e6e769d64a")
 		)
@@ -9849,7 +9864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 24.13 54.6101 0)
 			(effects
 				(font
@@ -10529,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "267k"
 			(at 104.14 52.07 90)
 			(effects
 				(font
@@ -10598,7 +10613,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 82.55 54.6101 0)
 			(effects
 				(font
@@ -11344,7 +11359,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k3"
 			(at 87.63 27.9399 0)
 			(effects
 				(font
@@ -11448,6 +11463,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4370389"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "654b73e6-42c8-4209-b258-514d35e74a2f")
 		)
@@ -11526,6 +11550,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 240.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 240.03 55.88 0)
 			(effects
 				(font
@@ -11685,6 +11718,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 245.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 245.11 139.7 0)
 			(effects
 				(font
@@ -12050,6 +12092,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4370389"
+			(at 265.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "841ef7f4-3c59-4047-af54-6c6ea0f6d9c3")
 		)
@@ -12400,6 +12451,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 189.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 189.23 139.7 0)
 			(effects
 				(font
@@ -12871,7 +12931,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 82.55 158.7499 0)
 			(effects
 				(font
@@ -14665,7 +14725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 24.13 158.7499 0)
 			(effects
 				(font
@@ -14738,7 +14798,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10k"
 			(at 24.13 33.0201 0)
 			(effects
 				(font
@@ -14787,74 +14847,6 @@
 			(project "vco1"
 				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
 					(reference "RV_RANGE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 114.3 55.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbd1c820-0939-4e42-b4ec-45826621223a")
-		(property "Reference" "TP7"
-			(at 118.8721 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_Alt"
-			(at 116.3321 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Holes:TP_0.9mm"
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 114.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16769dbf-1264-4b05-b8bb-9db19d311f03")
-		)
-		(instances
-			(project "vco2"
-				(path "/307302bf-1f04-498b-81c7-0944a093f10d"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15839,7 +15831,7 @@
 				)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "267k"
 			(at 45.72 52.07 90)
 			(effects
 				(font

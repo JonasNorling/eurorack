@@ -3954,6 +3954,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6971"
+			(at 135.89 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e42fdd41-102c-4ba4-8fbe-603b53261eb2")
 		)
@@ -4632,6 +4641,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4370389"
+			(at 176.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec8d62d3-19f0-43a9-b206-7595624d5908")
 		)
@@ -4868,6 +4886,15 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 222.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4370389"
 			(at 222.25 105.41 0)
 			(effects
 				(font
@@ -5653,6 +5680,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4370389"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec8d62d3-19f0-43a9-b206-7595624d590a")
 		)
@@ -5931,6 +5967,15 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15512"
 			(at 76.2 142.24 0)
 			(effects
 				(font
