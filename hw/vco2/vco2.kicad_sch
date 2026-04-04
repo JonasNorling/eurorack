@@ -5899,6 +5899,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2145"
+			(at 78.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6f0e4eb5-c2f4-4136-9fd5-082cf9d2c613")
 		)
@@ -6789,7 +6798,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4370389"
+		(property "LCSC" "C6961"
 			(at 163.83 55.88 0)
 			(effects
 				(font
@@ -7018,7 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4370389"
+		(property "LCSC" "C6961"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -7498,6 +7507,24 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2145"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -9535,7 +9562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4370389"
+		(property "LCSC" "C6961"
 			(at 163.83 31.75 0)
 			(effects
 				(font
