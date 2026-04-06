@@ -1,0 +1,666 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c4f877e5-ce69-4e50-ab01-826c8aac2c0b")
+	(paper "A4")
+	(title_block
+		(title "Eurorack brain board")
+		(company "Jonas Norling")
+	)
+	(lib_symbols)
+	(sheet
+		(at 182.88 53.34)
+		(size 48.26 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0854ffcf-3a8c-4d5d-b21c-b02dba1777b1")
+		(property "Sheetname" "codec"
+			(at 182.88 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 182.88 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AUDIO_IN_L" input
+			(at 231.14 58.42 0)
+			(uuid "6b2b648c-f209-4284-8dd0-6126ca7edabd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_IN_R" input
+			(at 231.14 60.96 0)
+			(uuid "ca6a527e-00ed-4af6-8d6b-098f052e203c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT_L" output
+			(at 231.14 63.5 0)
+			(uuid "0791f9c3-ecd1-4dd8-a213-7fb638c692c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BCK" input
+			(at 182.88 58.42 180)
+			(uuid "93e3bb00-59fc-4032-a98e-123a62d9e637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN" input
+			(at 182.88 60.96 180)
+			(uuid "a7febca5-38b0-45bc-af2c-483d4db39081")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 182.88 63.5 180)
+			(uuid "bca86154-a864-4abd-b18f-08090fc2a5de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRCK" input
+			(at 182.88 66.04 180)
+			(uuid "356338f5-e9b8-4056-a3fc-b3308203fc73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 182.88 68.58 180)
+			(uuid "8957d344-4853-48d7-b72d-f381a7a44c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_OUT_R" output
+			(at 231.14 66.04 0)
+			(uuid "0b19491d-74ee-417b-8624-3d1ec348c640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brainboard"
+				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 48.26)
+		(size 40.64 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ce7e7b8-4958-4429-8770-ba76fbc32330")
+		(property "Sheetname" "audio_io"
+			(at 124.46 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_io.kicad_sch"
+			(at 124.46 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 124.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "ADC_L" output
+			(at 165.1 55.88 0)
+			(uuid "a2c1b4bc-6f34-4410-a785-268ca5149024")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_R" output
+			(at 165.1 58.42 0)
+			(uuid "74bc7cf6-9d20-4bb4-8d61-e813cec9ffa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_L" input
+			(at 124.46 55.88 180)
+			(uuid "e5f25a12-33bb-4996-94c2-3c4f7bb442ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_R" input
+			(at 124.46 58.42 180)
+			(uuid "7000ffda-85fb-4adb-afa0-530cc036c4f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_IN_L" input
+			(at 124.46 63.5 180)
+			(uuid "7268fa35-9299-4aa0-be16-9434322aa5c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_IN_R" input
+			(at 124.46 66.04 180)
+			(uuid "6516bb58-5496-4d5f-aca9-ac882244714a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUDIO_OUT_L" output
+			(at 165.1 63.5 0)
+			(uuid "65bdaedd-eebb-4ff8-a38c-d1a1850612db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUDIO_OUT_R" output
+			(at 165.1 66.04 0)
+			(uuid "04c00f6a-aa39-48b6-8ce2-ab1a2f87f99d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brainboard"
+				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 93.98)
+		(size 50.8 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24a21a18-fab6-495d-ba08-399480449490")
+		(property "Sheetname" "supply"
+			(at 100.33 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supply.kicad_sch"
+			(at 100.33 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 151.13 106.68 0)
+			(uuid "0cee640f-c89b-44a1-87ba-0722661703fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brainboard"
+				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 93.98)
+		(size 50.8 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36205ed7-eae9-4409-8275-b7dc57e39bc5")
+		(property "Sheetname" "mcu"
+			(at 162.56 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 162.56 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_VBUS" output
+			(at 162.56 129.54 180)
+			(uuid "a30cdf04-d472-42c7-a452-ed1322d63938")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN1" input
+			(at 162.56 96.52 180)
+			(uuid "bf08234c-ccfd-4681-963b-c18d11b89cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN2" input
+			(at 162.56 99.06 180)
+			(uuid "8905e7b4-7179-4aed-925e-42a98dcc1d78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN3" input
+			(at 162.56 101.6 180)
+			(uuid "9fcca62a-c112-4269-a99c-e01873c02d55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN4" input
+			(at 162.56 104.14 180)
+			(uuid "637cc902-b417-41a7-9297-8283b250cfa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN5" input
+			(at 162.56 106.68 180)
+			(uuid "c77573b7-51e9-48fd-865f-594edfcc9c6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN6" input
+			(at 162.56 109.22 180)
+			(uuid "91358294-389c-47f0-be38-531625701579")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN7" input
+			(at 162.56 111.76 180)
+			(uuid "d421a4bf-e2e3-4adb-81f9-09e979e157f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN8" input
+			(at 162.56 114.3 180)
+			(uuid "77156350-ecf4-4457-9bbc-621725f27ccb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AOUT1" output
+			(at 213.36 96.52 0)
+			(uuid "14cc3be9-a7e3-4c9b-bfcc-2eedd71c00f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOUT2" output
+			(at 213.36 99.06 0)
+			(uuid "ced31949-6892-47cb-b3af-ec53aa4eb396")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOUT3" output
+			(at 213.36 101.6 0)
+			(uuid "6e5e16e3-306c-4169-b3ae-46c15f5fe661")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_BCLK" output
+			(at 213.36 107.95 0)
+			(uuid "291db61f-2387-416c-b11e-c6bbcab5a547")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_DIN" input
+			(at 213.36 115.57 0)
+			(uuid "3e99cbec-1122-4319-8f84-fb6049041f79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_DOUT" output
+			(at 213.36 113.03 0)
+			(uuid "83998abe-4522-4d32-8059-688161350156")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_LRCLK" output
+			(at 213.36 110.49 0)
+			(uuid "eb11e6f6-95c1-4ed5-a796-547df50f5e1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_MCLK" output
+			(at 213.36 105.41 0)
+			(uuid "9f6043e2-f53b-4dbf-9e72-35dd814b2774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brainboard"
+				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 55.88)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "715cdce4-4c1b-4f4a-8947-a66ad3bfc12c")
+		(property "Sheetname" "analog_io"
+			(at 68.58 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_iokicad_sch.kicad_sch"
+			(at 68.58 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CV1" input
+			(at 68.58 60.96 180)
+			(uuid "e962b2a8-bbaf-4a8c-8a8e-554d42e260d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CV2" input
+			(at 68.58 63.5 180)
+			(uuid "f8c1ac0d-521a-4a96-a3db-c79b591e1712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CV3" input
+			(at 68.58 66.04 180)
+			(uuid "8ee8e5dc-26ef-464a-80a0-f86b4d8d2367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CV4" input
+			(at 68.58 68.58 180)
+			(uuid "4f2159b0-c3fa-4b1f-9ffd-d537b7371173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CV_INT1" output
+			(at 99.06 60.96 0)
+			(uuid "e9f0d768-72f6-4a1a-bcc5-5e02747ea501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CV_INT2" output
+			(at 99.06 63.5 0)
+			(uuid "17027e2c-5dab-40f0-bb1a-e717de64d886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CV_INT3" output
+			(at 99.06 66.04 0)
+			(uuid "0035a4f4-768a-4492-8c9e-132dff523827")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CV_INT4" output
+			(at 99.06 68.58 0)
+			(uuid "dd5dc15a-3176-47e5-8f66-dd18fdc2368d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "brainboard"
+				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

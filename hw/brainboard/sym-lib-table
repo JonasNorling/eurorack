@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "codec")(type "KiCad")(uri "/home/jonasn/src/eurorack/hw/lib/codec.kicad_sym")(options "")(descr ""))
+)
