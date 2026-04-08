@@ -2108,6 +2108,16 @@
 		)
 		(uuid "fb7c6909-a47c-4188-8f8e-e7c1060d9a4b")
 	)
+	(label "VREF_DECOUPLE"
+		(at 238.76 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c456990c-c8d4-473a-9ffe-070aa4f6615c")
+	)
 	(hierarchical_label "AUDIO_IN_L"
 		(shape input)
 		(at 161.29 87.63 180)
