@@ -1,27 +1,26 @@
-(footprint "TP_0.9mm"
+(footprint "TP_0.8mm_pad"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
-	(tags "test point THT pad")
 	(property "Reference" "REF**"
-		(at 1.5 0 0)
+		(at 1 0 0)
+		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8e3b35bb-4555-4b98-b228-8e15c28a300a")
+		(uuid "a61ecea8-28c2-4c34-b3e3-bfd9a51a23c2")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 0.7 0.8)
 				(thickness 0.1)
 			)
 			(justify left)
 		)
 	)
-	(property "Value" "TP_0.9mm"
-		(at 0 1.75 0)
+	(property "Value" "TP_0.8mm_pad"
+		(at 0 1 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "8c0c2105-72ba-497b-b863-69823727ae67")
+		(uuid "26e44d63-b35a-4a9c-886f-ed321f0da4eb")
 		(effects
 			(font
 				(size 1 1)
@@ -34,10 +33,10 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8204a899-7b60-4ebe-a974-59705ac98aa9")
+		(uuid "2f3b0ac2-3d8c-46c9-a8db-714f9e90b93a")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -47,49 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5f92940a-050b-4849-bff9-8f4f85794d93")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_line
-		(start 0.8 0)
-		(end 1 -0.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1cebcdcd-7939-4701-9586-cb912456f244")
-	)
-	(fp_line
-		(start 0.8 0)
-		(end 1 0.2)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7a4e7894-2c63-4157-9c90-936ac20ee9d8")
-	)
-	(fp_line
-		(start 0.8 0)
-		(end 1.5 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "099989ed-f956-4223-a5a9-d8f247441285")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -1.65 0)
-		(layer "F.Fab")
-		(uuid "258d936c-5468-40a7-bb8d-0b29d21bf981")
+		(uuid "e02c2afe-3a04-4595-8602-9130d879abf5")
 		(effects
 			(font
 				(size 1 1)
@@ -97,13 +54,57 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0.5 0)
+		(end 0.7 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "955d7d5c-75f9-4bf6-89fc-58025bfee175")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end 0.7 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d6165a-909c-4d45-82f9-e9e55264d31c")
+	)
+	(fp_line
+		(start 1 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0782443a-afcf-4eb6-8f8f-5576af0a54b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "814f14ad-c2f3-4fec-81da-9493fcf1b842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
 		(at 0 0)
-		(size 1.4 1.4)
-		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d4c59acd-c0ea-4830-8b44-6dc762ed1a14")
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.4)
+		(chamfer top_left)
+		(uuid "14ab7ce1-7978-4513-9091-2998d4cdc446")
 	)
 	(embedded_fonts no)
 )

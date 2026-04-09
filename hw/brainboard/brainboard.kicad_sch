@@ -874,6 +874,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1338,6 +1421,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 129.54) (xy 168.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212c58a9-5ee9-4394-a860-06f4101c9cd1")
+	)
+	(wire
+		(pts
 			(xy 64.77 97.79) (xy 83.82 97.79)
 		)
 		(stroke
@@ -1688,6 +1781,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 132.08) (xy 168.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7fe5bb-fc65-434b-90ec-48f321f23cf3")
+	)
+	(wire
+		(pts
 			(xy 134.62 67.31) (xy 151.13 67.31)
 		)
 		(stroke
@@ -1926,6 +2029,16 @@
 		)
 		(uuid "7aeb77ed-dfd3-4fac-9888-83e17e76d5af")
 	)
+	(label "-12V"
+		(at 157.48 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9913308b-67c1-4db5-856f-2280e7408673")
+	)
 	(label "DAC3"
 		(at 220.98 91.44 0)
 		(effects
@@ -1945,6 +2058,16 @@
 			(justify right bottom)
 		)
 		(uuid "af3ecce4-a74a-4754-87d0-a04c890b76e7")
+	)
+	(label "+12V"
+		(at 157.48 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b43524f0-e58a-423b-a1d7-108e593502ee")
 	)
 	(label "-12V"
 		(at 218.44 106.68 0)
@@ -2747,6 +2870,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97ffa0eb-b470-4f46-84d0-9b7a150899aa")
+		(property "Reference" "H1"
+			(at 58.42 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.42 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Holes:MountingHole_3.2mm_M3_Pad"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "brainboard"
+				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
 		(at 234.95 96.52 0)
 		(mirror y)
@@ -3436,16 +3623,6 @@
 				(justify left)
 			)
 		)
-		(pin "SCK" input
-			(at 160.02 96.52 180)
-			(uuid "8957d344-4853-48d7-b72d-f381a7a44c5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "AUDIO_OUT_R" output
 			(at 184.15 101.6 0)
 			(uuid "0b19491d-74ee-417b-8624-3d1ec348c640")
@@ -3454,6 +3631,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MCLK" input
+			(at 160.02 96.52 180)
+			(uuid "5b0bff6b-3803-4ef9-bc7d-ae95dd8b0f8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

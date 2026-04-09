@@ -1,4 +1,4 @@
-27242891752887087
+27251753549248060
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6747,6 +6747,13 @@ capacitor tantalum
 0
 2
 2
+Components
+Crystal_SMD_3225-4Pin_3.2x2.5mm_Lagom
+SMD3225/4, Crystal, 3.2x2.5mm package, SMD, hand-soldering, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf
+
+0
+4
+4
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
@@ -63497,6 +63504,13 @@ mountinghole M3
 1
 1
 Holes
+TP_0.8mm_pad
+
+
+0
+1
+1
+Holes
 TP_0.9mm
 THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
 test point THT pad
@@ -107918,3 +107932,24 @@ Varistor VF
 0
 2
 2
+elemental
+elemental-4mm
+
+
+0
+0
+0
+elemental
+elemental-4mm-mask
+
+
+0
+0
+0
+elemental
+elemental-25.4mm
+
+
+0
+0
+0
