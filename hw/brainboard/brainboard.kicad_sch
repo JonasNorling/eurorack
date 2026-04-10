@@ -1309,6 +1309,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "GPIO5-7\nweak\noutputs"
+		(exclude_from_sim no)
+		(at 146.812 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93df0237-940a-40f9-8f26-a84a20349348")
+	)
 	(wire
 		(pts
 			(xy 87.63 147.32) (xy 100.33 147.32)

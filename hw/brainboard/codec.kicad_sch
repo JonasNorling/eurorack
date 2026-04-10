@@ -1710,6 +1710,16 @@
 		)
 		(uuid "ba65b48d-5f9c-43e3-9791-25b92643c0fb")
 	)
+	(text "3.0Vp-p centered on 2.5V"
+		(exclude_from_sim no)
+		(at 168.402 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c49a06a4-0240-45b9-a110-72219717c017")
+	)
 	(text "Datasheet shows 470 ohm / 2.2nF\n→ 150 kHz cutoff"
 		(exclude_from_sim no)
 		(at 119.126 55.626 0)
@@ -1891,7 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 171.45 87.63)
+			(xy 177.8 87.63) (xy 185.42 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 163.83 90.17)
+			(xy 177.8 90.17) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2048,16 +2058,6 @@
 			(type default)
 		)
 		(uuid "94ba7183-c56c-4762-9f14-fb65ae19bcb4")
-	)
-	(wire
-		(pts
-			(xy 179.07 87.63) (xy 185.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a9c1be-49b2-4104-b578-bc674a44f5cd")
 	)
 	(wire
 		(pts
@@ -2231,16 +2231,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 185.42 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e25da649-df3c-4f8c-8e14-1acb09f15de1")
-	)
-	(wire
-		(pts
 			(xy 191.77 80.01) (xy 191.77 77.47)
 		)
 		(stroke
@@ -2291,7 +2281,7 @@
 	)
 	(hierarchical_label "AUDIO_IN_L"
 		(shape input)
-		(at 161.29 87.63 180)
+		(at 177.8 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2395,7 +2385,7 @@
 	)
 	(hierarchical_label "AUDIO_IN_R"
 		(shape input)
-		(at 161.29 90.17 180)
+		(at 177.8 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2509,75 +2499,6 @@
 			(justify left)
 		)
 		(uuid "ef5dd1e8-f1bb-4e69-a709-83107a533d04")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 175.26 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01f65db0-e966-4586-b48d-638f0deda0b5")
-		(property "Reference" "C48"
-			(at 173.9899 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 176.5299 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 179.07 86.6648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 175.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "010a3d40-ba77-4df1-91a4-1e78984b1f81")
-		)
-		(pin "2"
-			(uuid "a6075275-f0c2-4dea-ab76-9bd8a2cf806d")
-		)
-		(instances
-			(project "brainboard"
-				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b/0854ffcf-3a8c-4d5d-b21c-b02dba1777b1"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2706,75 +2627,6 @@
 			(project "brainboard"
 				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b/0854ffcf-3a8c-4d5d-b21c-b02dba1777b1"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 167.64 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0520293c-4a90-48fd-b075-0777457a877a")
-		(property "Reference" "C49"
-			(at 166.3699 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 168.9099 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 171.45 89.2048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d33a6c5b-66ed-4ce5-b702-16a5481e531b")
-		)
-		(pin "2"
-			(uuid "ab14c076-8b15-4e5d-9a31-e287ffe3faba")
-		)
-		(instances
-			(project "brainboard"
-				(path "/c4f877e5-ce69-4e50-ab01-826c8aac2c0b/0854ffcf-3a8c-4d5d-b21c-b02dba1777b1"
-					(reference "C49")
 					(unit 1)
 				)
 			)

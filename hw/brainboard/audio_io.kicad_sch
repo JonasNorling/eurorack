@@ -986,6 +986,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "20Vpp (±10V)"
+		(exclude_from_sim no)
+		(at 97.282 110.744 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20e0bd52-5e60-4974-976f-7f1d10375d8a")
+	)
+	(text "20Vpp (±10V)"
+		(exclude_from_sim no)
+		(at 173.228 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a40e6fe7-645a-40f2-be62-862e3e7c9e73")
+	)
+	(text "3.0Vpp centered on 2.5V"
+		(exclude_from_sim no)
+		(at 181.864 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7e985eb-c425-4a78-9b92-b1053688cda8")
+	)
+	(text "2.1VRMS ground centered = 3Vpp"
+		(exclude_from_sim no)
+		(at 84.328 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "f73235d3-fcbc-43e7-a779-aad0a84d0c23")
+	)
 	(junction
 		(at 148.59 97.79)
 		(diameter 0)
@@ -1848,7 +1890,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 138.43 102.87 90)
 			(effects
 				(font
@@ -1984,7 +2026,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 120.65 73.66 90)
 			(effects
 				(font
@@ -2374,7 +2416,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "100k"
 			(at 120.65 96.52 90)
 			(effects
 				(font
@@ -2510,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "100k"
 			(at 138.43 80.01 90)
 			(effects
 				(font
@@ -2958,7 +3000,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "100k"
 			(at 120.65 119.38 90)
 			(effects
 				(font
@@ -3161,7 +3203,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 120.65 49.53 90)
 			(effects
 				(font
@@ -3229,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 138.43 125.73 90)
 			(effects
 				(font
@@ -3880,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "100k"
 			(at 138.43 55.88 90)
 			(effects
 				(font
