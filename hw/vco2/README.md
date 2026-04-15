@@ -1,10 +1,12 @@
+# Eurorack Dual VCO
+
 This is a dual voltage controller oscillator (VCO) based on the SSI2131 chip, for Eurorack modular synthesizer systems. In goes a one-volt-per-octave control voltage (CV) and out comes a triangle, saw and square wave. Times two. The second oscillator also has a handy low frequency mode.
 
 ## Specs
 
 - Power consumption +12V 60mA, -12V 50mA
 - Frequency range without CV input: approx. 12Hz to 1.5kHz
-- Selectable low frequency range of second oscillator: approx. 2.8 Hz to 50 seconds
+- Selectable low frequency range of second oscillator: approx. 8 Hz to 18 seconds
 - Inputs:
   - CV (1 volt per octave) for each oscillator. Second oscillator CV normalled to first.
   - PWM (pulse width modulation) for each oscillator square wave, approx. ±5V
